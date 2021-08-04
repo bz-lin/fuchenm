@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>蔣元樞與府城之美</title>
+        <meta name="description" content="蔣元樞與府城之美">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/materialize.css">       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script/jquery-3.3.1.js"></script>
+        <script src="script/materialize.js"></script>        
+    </head>
+    
+    <body>
+        <!--Header:Begin-->
+        <header>
+        <!-- Dropdown Structure  *Note:Each of Attributes' id has to be unique! -->
+        <ul id="dropdownFaith" class="dropdown-content">
+          <li><a class="white-text center-align" href="faith.html#Cheng-Huan-Temple">府城隍廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="faith.html#Long-Wang-Temple">龍王廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="faith.html#Fong-Shen-Temple">風神廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="faith.html#Hai-Hui-Temple">海會寺</a></li>
+        </ul>
+        <ul id="dropdownBeauty" class="dropdown-content">
+          <li><a class="white-text center-align" href="#Grand-Matsu-Temple">臺郡天后宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Wanshou-Palace">萬壽宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Kaiji-Tianhou-Palace">開基天后宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#County-Town">台灣郡城</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Kuan-Ti-Temple">關帝廟</a></li>
+        </ul>
+        <!--sideNav-->
+        <ul class="sidenav sidenav-color sidenavText" id="mobile-demo">
+            <li style="padding: 50px 0;"><a href="index.html" style="font-size: 3vh;" class="center-align">蔣元樞與府城之美</a></li>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="story.html">人物生平</a></li>
+            <li><a href="military.html">軍事建設</a></li>
+            <li><a href="education.html">教育貢獻</a></li>
+
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <div class="collapsible-header">
+                         <a href="faith.html">信仰寄託</a>
+                         <a href="javascript:void(0);" data-target="collapsibleFaith"><i class="material-icons right">arrow_drop_down</i></a>
+                    </div>
+                    <div id="collapsibleFaith" class="collapsible-body">
+                         <ul>
+                             <li><a href="faith.html#Cheng-Huan-Temple">府城隍廟</a></li>
+                             <li><a href="faith.html#Long-Wang-Temple">龍王廟</a></li>
+                             <li><a href="faith.html#Fong-Shen-Temple">風神廟</a></li>
+                             <li><a href="faith.html#Hai-Hui-Temple">海會寺</a></li>
+                         </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <div class="collapsible-header">
+                         <a href="beauty.html">府城之美</a>
+                         <a href="javascript:void(0);" data-target="collapsibleBeauty"><i class="material-icons right">arrow_drop_down</i></a>
+                    </div>
+                    <div id="collapsibleBeauty" class="collapsible-body">
+                         <ul>
+                             <li><a href="#Grand-Matsu-Temple">臺郡天后宮</a></li>
+                             <li><a href="#Wanshou-Palace">萬壽宮</a></li>
+                             <li><a href="#Kaiji-Tianhou-Palace">開基天后宮</a></li>
+                             <li><a href="#County-Town">台灣郡城</a></li>
+                             <li><a href="#Kuan-Ti-Temple">關帝廟</a></li>
+                         </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <li><a href="about.html">製作團隊</a></li>
+        </ul>
+        </header>
+        <!--Header:End-->
+        
+        <main>
+        <!--Index-banner-->
+        <div id="index-banner" class="parallax-container">
+           <!--NavBar-->
+            <nav class="navcolor">
+                <div class="nav-wrapper container">
+                    <a href="javascript:void(0);" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li class="waves-effect waves-light"><a href="index.html">首頁</a></li>
+                            <li class="waves-effect waves-light"><a href="story.html">人物生平</a></li>
+                            <li class="waves-effect waves-light"><a href="military.html">軍事建設</a></li>
+                            <li class="waves-effect waves-light"><a href="education.html">教育貢獻</a></li>
+                            
+                            <li><a class="waves-effect waves-light" href="faith.html" style="margin-bottom: 5px ;">信仰寄託</a></li>
+                            <li><a class="waves-effect waves-light dropdown-trigger" data-target="dropdownFaith"><i class="material-icons">arrow_drop_down</i></a></li>
+                            
+                            <li><a class="active waves-effect waves-light" href="beauty.html" style="margin-bottom: 5px ;">府城之美</a></li>
+                            <li><a class="waves-effect waves-light dropdown-trigger" data-target="dropdownBeauty"><i class="material-icons">arrow_drop_down</i></a></li>
+                            
+                            <li class="waves-effect waves-light"><a href="about.html">製作團隊</a></li>
+                        </ul>
+                </div>
+            </nav>
+            <div class="section no-pad-bot">
+              <div class="container">
+                <br>
+                <h1 class="header center white-text text-lighten-2">蔣元樞與府城之美</h1>
+                <div class="row center">
+                  <h5 class="header col s12 light white-text">The beauty of Fucheng.</h5>
+                </div>
+                <br>
+              </div>
+            </div>
+            <div class="parallax"><img src="image/indexPic1temp.png"></div>
+        </div>
+        <!--Separation line-->
+        <hr class="style-one"> 
+        <!--Content-->
+        <div class="container center">
+            <!--Title-->
+            <div class="title">
+                <h3>府城之美</h3>
+            </div>
+            <!--Text-->
+            <div class="text left-align">
+                <div id="Grand-Matsu-Temple">
+                    <div class="dialog-left"><h3>重修臺郡天后宮</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            臺南大天后宮起源於明鄭時期，鄭成功迎請寧靖王於金門廈門作為鄭軍的監軍，以示鄭成功軍隊行動皆有明皇室的允許。鄭成功之子鄭經接位之後為了鞏固正統性，迎接寧靖王來臺，並且令部將在承天府(赤崁樓)旁興建郡王府。永曆三十七年(西元1683年)清軍攻陷澎湖之後，寧靖王決心殉死，自縊前捐獻宅邸寧靖王府予佛祖為寺廟。清軍統率施琅在此地接受鄭克塽投降，並在康熙二十三年(西元1683年)上疏請康熙皇帝准許加封媽祖為「天后」來崇拜奉祀，將這座寧靖王府改建為媽祖宮廟。康熙五十九年(西元1720年)，翰林徐葆光出使琉球歸來，為感謝媽祖保佑而上奏，使得天后宮被納入國家春秋兩季祀典，成為臺灣最早的官建祀典媽祖廟。自此正式改稱「大天后宮」，民間俗稱為「大媽祖廟」。雍正年間，獲得皇帝賜匾，各方官員來臺都會到大天后宮參拜致意。乾隆年間，陸續有增補修建，乾隆三十年(西元1765年)知府蔣允焄重修，為了方便來致祭的文武官員更衣，更在正殿後增建方官廳。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            清乾隆四十年（西元1775年）知府蔣元召集仕紳集資進行廟宇整修，以及贈與一尊「閉目觀音」，並且立碑在拜堂左壁，且於隔年督造蔣公鼎，該鼎為府城保存最久的銅鼎。
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第五十七頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查郡城西定坊之天后宮，未入版圖以前，即已建造。郡垣廟宇，此為最久。天后福 庇海洋，驅越百神;我朝征剿「鄭逆」，天戈所指，靈潮突長，舟師得以穩抵郡城，無虞險阻。迄今百餘年來，此邦士庶暨往來海道士宦商民，無不仰戴神床。神之覆育斯民，功德最鉅。春秋列於祀典，將享虔肅。
+                                <br>
+                                舊時廟制:前為頭門 ，門外有臺以為演獻之所;門內兩廊咸具。中為大殿，供奉神像。其後正屋二進，雜祀諸神。廟之右畔，有屋三進為官廳;周以墙垣:規模制度，頗稱宏敞。特以歲久缺修，將就傾圮。元樞滋臺後，一切有關政典鉅工既已次第興舉，因手捐廉俸並勸紳士之樂善者，選工飾材，重加修整:棟柄之朽壞者易之，丹粉之陳暗者。現在廟貌巍然，呈輝焕彩;將見靈爽益昭，環海之永明神庇正無既極也已。
+                            </p>
+                        </blockquote>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic1.png">
+                                <div class="imgText">
+                                    <span>重修臺郡天后宮圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic2.png">
+                                <div class="imgText">
+                                    <span>閉目觀音</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            嘉慶二十三年(西元1818年)清晨，大天后宮發生火災，損失相當巨大，中殿及後殿都焚毀，住持僧人所儲蓄的銀錢全都鎔化。
+                            <br>
+                            嘉慶年間的大火後產生兩大改變，其一由於重建的經費，主要由府城三大商業公會「府城三郊」募款集資，至道光十年年(西元1830年)完成重建時，大天后宮的廟務，已由過往佛教僧侶為住持、清政府主事，轉變為府城地方有力商會主導。另外，在火災之後，大天后宮由於神像已燒失，祭典期間需要其他廟宇協助，後來的「府城迎媽祖」祭儀，可能就源於這段期間向北港朝天宮迎神像來協助祭典進行而開始。
+                        </p>
+                        <p>
+                            清末馬關條約割讓臺灣予日本之後，臺灣成立「臺灣民主國」，駐防臺南府的總兵劉永福被推舉為第2任總統時，曾利用大天后宮後進側邊的箱房為辦公室。日軍進府城，政權更替之後，大天后宮廟方一度與由日本來的曹洞宗僧侶合作，曹洞宗並以大天后宮為傳教據點，但在明治三十一年(西元1898年)臺灣總督府禁止臺灣寺廟成為日本寺廟分寺之後，廟務又回到原本三郊商會為主導。
+                        </p>
+                        <p>
+                            大正四年(西元1915年)開始，府城迎媽祖的活動發生與北港朝天宮爭執，自此不再以從北港迎來的媽祖像，改以大天后宮內的神像繞境。大正十五年(西元1926年)的媽祖繞境因與臺南運河開通典禮同時進行，不僅臺南市各廟宇及民間團體參與，日本政府甚至讓地方各派出所一同加入協辦。聲勢極大，民間甚至產生「臺南媽祖開運河」之說。
+                        </p>
+                        <p>
+                            雖然如此，大天后宮在日治時代一度陷入被標售的處境，起因為總督府推行「皇民化運動」，於昭和十二年(西元1937年)更由地方政府主導「寺廟整理運動」，企圖透過整理、裁併地方寺廟來壓制臺灣傳統的宗教。臺南大天后宮的廟產豐厚，臺南州政府為尋覓財源，決定廢除大天后宮，標售廟產充抵社會事業費用。在政府主導下，主事商會組織「三郊組合」在昭和十五年(西元1940年)底決議將三郊產業移交給日本政府臺南州廳。而臺南州廳又將三郊產業移交給「臺南商工會議所」(即今臺南市商業會前身)。商工會取得三郊名下產業後，決定拍賣包括大天后宮在內的多筆產業。這引起地方信眾極力反對，當時臺北帝大土俗人種學講座講師宮本延人兼任臺灣總督府文教局調查官，到臺南調查時，有信徒告知大天后宮面臨標售拆除的危機。宮本延人遂介入斡旋，出面前往與臺南州知事溝通，終取消標售案。因此義舉，宮本延人受到臺南民眾的感念，他贈予大天后宮的匾額，今日與帝王顯貴們的題字一同懸掛於大天后宮橫樑上。
+                        </p>
+                        <p>
+                            二次大戰後，大天后宮本身也歷經多次重建，其中較主要改建者包括民國四八年(西元1959年)將三川門由單簷改成假四垂屋頂，以及民國六十年(西元1971年)將官廳改為三寶殿。
+                        </p>
+                        <p>
+                            民國七十四年(西元1985年)政府公告大天后宮為臺閩地區第1級古蹟。確立大天后宮特出的歷史地位。民國七十六年(西元1987年)，北港朝天宮舉行環島祈安活動，再次與大天后宮接觸並恢復舊誼。而在民國九十三年(西元2004年)發生了正殿居中位民間俗稱「大媽」的大媽祖像崩裂事件，一時震驚全臺。詳情是6月11日凌晨廟方人員開廟門時，發現正殿的大媽金身從胸部以上裂開並斷落地面，頭部、雙手裂成兩截，所幸結構仍完整、臉龐稍損。後續調查判定原因是神像內部木材支柱腐朽。在匠師、學者、及富經驗的日籍佛像修護專家等通力合作之下，完成的新大媽祖像，為金面媽祖，此為廟方據宮誌記載要求修復。於民國九十五年(西元2006年)舉行了重新開光的安座典禮。
+                        </p>
+                        <h4>廟宇特色</h4>
+                        <p>
+                            傳說當年施琅攻台時，駐軍寧靖王府邸，後院中有一對龍目井，井水不多，但自從施琅駐紮此處後，井水噴湧不盡，足供大軍使用，施琅因此奏請將此處改制為台郡天妃宮。
+                        </p>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic31.png">
+                                <div class="imgText">
+                                    <span>龍目井</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                                <p>
+                                    知府蔣元樞於清乾隆41年（西元1776年），命工督造，迄今已有230多年歷史，是府城保存最久之銅鼎。
+                                </p>
+                        <div class="imgRWD">
+                           
+                            <div class="imgWithText">
+                                <img src="image/beautyPic32.png">
+                                <div class="imgText">
+                                    <span>蔣公鼎</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <h4>現今遺址</h4>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic3.png">
+                                <div class="imgText">
+                                    <span>大天后宮</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic4.png">
+                                <div class="imgText">
+                                    <span>大天后宮地點:台南市中西區永福路二段227巷18號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div id="Wanshou-Palace">
+                    <div class="dialog-left"><h3>重修萬壽宮</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            萬壽宮的前身為萬壽亭，萬壽亭供奉清皇帝牌位，提供官民朝拜行禮，也是祝賀清皇及太后、皇后萬壽之所。清代在台文武官員每逢皇帝生日時，都會聚集在萬壽宮，跪拜並祝皇上生日快樂，因此皇上生日這天又稱萬歲節，當時是清代的國定假日。
+                        </p>
+                        <p>
+                            康熙五十年（西元1711年），臺厦道陳璸始擇地興建萬壽亭於東郊永康里之北。「前立午門，門旁列朝房，亭後為祝聖殿。」，康熙六十年（西元1721年）萬壽亭遭受颱風摧毀。雍正元年（西元1723年）台灣知府高益鐸在原地點重建了萬壽亭。
+                        </p>
+                        <p>
+                            乾隆十七年（西元1752年）巡道金溶、知府陳玉友以萬壽亭地屬城外，遇慶賀不方便，乃行禮於孔廟明倫堂。清乾隆三十年（西元1765年）臺灣知府蔣允焄在東安坊縣學之東，即校士院舊址（時為海東書院）新建萬壽宮。
+                        </p>
+                        <!--
+                        <blockquote>
+                            <p>
+                                結搆宏敞，崇臺邃宇，…設東西臺、班房、廳事，殿門外左右為更衣廳，正南為午門，門外為東西朝房，周以繚垣，為東西闕門。
+                            </p>
+                        </blockquote>
+                        -->
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            清乾隆四十二年（西元1764年）知府蔣元樞擴大進行重建。
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第三十七頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查臺郡萬壽宮係前桌憲蔣諱允守郡時所建，規制極為宏做。但歷今十有餘載，為 風雨損剝，未經修整。元樞伏念海外臣工既遠關廷，祝釐朝政之所歲久缺修，自宜增飾，恭昭葵向私忧。茲敬謹飭材龙工，增塗壓以資炳煥，修棟阿以壯崇隆。現在雲龍角 綜約海隅，文武臣工俱慶加展瞻雲就日之忧矣。
+                            </p>
+                        </blockquote>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic5.png">
+                                <div class="imgText">
+                                    <span>重修萬壽宮圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic6.png">
+                                <div class="imgText">
+                                    <span>重修萬壽宮圖碑</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            日治時期，明治廿八年(西元1895年)萬壽宮及臺灣縣學被日本政府當作臺南地方法院。又於明治卅一年(西元1901年)計畫另闢地方新建地方法院，終於在大正元年(西元1912年)正式完工，而舊法院(萬壽宮及台灣縣學)被拆毀並建成台南地方法院院長宿舍。
+                            <br>
+                            民國九十八年(西元2010年)南側的員工宿舍拆除後，市府規劃為公園用地，整地時出土大量石材及「恭脩萬壽宮碑記」碑額。本次計畫進行透地雷達偵測到有大件石材遺構反應，疑為萬壽宮修建之相關碑記。
+                        </p>
+                        <h4>現今遺址</h4>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic7.png">
+                                <div class="imgText">
+                                    <span>萬壽宮出土遺跡</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic8.png">
+                                <div class="imgText">
+                                    <span>萬壽宮遺址地點: 台灣台南市中西區府前路一段21號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div id="Kaiji-Tianhou-Palace">
+                    <div class="dialog-left"><h3>重修開基天后宮</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            開基天后宮，俗稱小媽祖廟。該廟是臺南府城最早興建的媽祖廟。鄭成功在明永曆十七年(西元1662年)攻下普羅民遮城(今赤崁樓)後，選址於當時德慶溪注入臺江內海出口南岸的水仔尾興建此廟，蓋廟的磚頭是他第二批自廈門來臺的艦隊所運來的。廟內供奉一尊當年隨著鄭成功艦隊來臺的媽祖像，刻製於崇禎十三年(西元1640年)，也俗稱為「船仔媽」。由於此廟是鄭成功軍隊甫登陸後所建的一座媽祖廟，故以「開基」冠稱，以顯其時間上最為久遠。
+                        </p>
+                        <p>
+                            清軍來臺之後，改建寧靖王府為大媽祖廟，但小媽祖廟並沒有被毀棄。因為施琅上奏康熙皇帝封媽祖為天后，連帶把小媽祖廟也改稱為「開基天后宮」。在乾隆三十年(西元1765年)時，擔任福建分巡臺灣道的蔣允焄捐修該廟，使其更具規模。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            乾隆四十二年(西元1777年)時，臺灣府知府蔣元樞又予以修建，將形制改為三進的建築，並贈與一尊「傾聽觀音」在新建的後殿供奉。但並未記載於重修台郡各建築圖說，這尊觀音是蔣元樞所獻的「府城三大觀音」之一，另外二尊則在祀典武廟與大天后宮中。
+                        </p>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic9.png">
+                                <div class="imgText">
+                                    <span>傾聽觀音</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            嘉慶以後至日治時期屢有修茸。大正十五年(西元1926年)因廟宇年久失修，故境內居民們集資於舊址上重建，規制上變化相當有限，目前的建築配置與樣貌，大略上與重修的規制相同。二戰結束前，不幸遭美軍轟炸，廟身建築、文物都受到嚴重破壞。
+                        </p>
+                        <p>
+                            戰後於民國三十七年(西元1948年)，境眾大修殿宇。民國六十年(西元1971年)至民國六十二年(西元1973年)，士紳境民又募款重修，廟貌煥然一新，更是聘請了彩繪畫師黃啟受重新繪製廟門，黃啟受承襲已故名畫師陳玉峰畫風，人物靈活色彩多樣，是當時臺南有名匠師。民國六十七年(西元1978年)的改建，增添了今日所見繁複的表面裝飾。民國九十二年(西元2003年)進行了大修，於民國九十三年(西元2004年)完成。
+                        </p>
+                        <p>
+                            民國一零二年(西元2013年)整修雖然規模不如過往，但模式特別。起於廟方主動進行調查研究，在民國六十年繪製的3對、6面門神彩繪因處於半戶外的開放空間，經40年風吹日曬的環境影響，已嚴重膨起剝落、裂痕、細裂紋劣化。且今日由黃啟受繪製落款的作品，全臺灣已知僅存此6面。以廟方自籌1成、文化部出資9成經費共同維護的方式，聘請臺南藝術大學講師李志上與修復師吳佩錡進行6面門神的修復工程。
+                        </p>
+                        <h4>廟宇特色</h4>
+                        <p>
+                            開基天后宮中所主祀的媽祖神像，事由崇禎十三年(西元1640年)所雕製的，高度約略1尺，民間都稱呼船仔媽。
+                        </p>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic33.png">
+                                <div class="imgText">
+                                    <span>開基天后宮媽祖</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>開基天后宮內有一「湄靈肇造」匾額，是清朝文人林朝英所贈，該匾額有開基之意。</p>
+                        <div class="imgRWD">
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic34.png">
+                                <div class="imgText">
+                                    <span>「造肇靈湄」匾額</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <h4>現今遺址</h4>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic10.png">
+                                <div class="imgText">
+                                    <span>開基天后宮</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic11.png">
+                                <div class="imgText">
+                                    <span>開基天后宮地點:台南市北區自強街12號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div id="County-Town">
+                    <div class="dialog-left"><h3>重建台灣郡城</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            在康熙六十年（1721年）的朱一貴事件的影響下，臺灣知縣周鍾瑄下令修築木柵。其長度在《重修福建臺灣府志》、《重修臺灣府志》和《續修臺灣府志》都記載為兩千一百四十七丈（6.87km），而《重修臺灣縣志》和《續修臺灣縣志》則是兩千六百六十二丈（8.518km）。而在這時所築的府城只有七門，而且西邊未完全被包圍，以致當時(大)西門獨自聳立著，兩邊未與木柵相連。
+                        </p>
+                        <p>
+                            在雍正十年（1732年）所發生的吳福生事件，讓福建總督郝玉麟在雍正十一年（1733年）奉旨加植莿竹以強化城防。而除此之外，還在小北門與後來小西門的位置建了大砲臺，在大西門外設四座敵臺，小北門外設兩座敵臺。
+                        </p>
+                        <p>
+                            乾隆元年時，開始將七座城門改為石製，並建了十五座窩舖。臺灣知縣夏瑚又在乾隆二十四年（1759年）在莿竹外增植綠珊瑚這種有毒汁的灌木來進一步強化府城的防禦。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>到了乾隆四十年（1775年）時，臺灣知府蔣元樞再補植莿桐與林投樹，並添建了小西門和整修砲臺與窩舖。</p>
+                        <p>下文摘錄自重修台郡各建築說第1-2頁:</p>
+                        <blockquote>
+                            <p>
+                                查臺郡自隸版圖後，以地濱大海、土疏沙淤，未建城垣。雍正十一年(一七三三) ，世宗憲皇帝頒論督臣，深以臺灣起建石城，非宜;且附近府治有鹿耳門號稱天險，備設瞰臺、撥兵巡視，自足以資捍禦。復允督臣奏請，於現定城基之外栽種刺竹，藉為藩籬；實因地制宜，甚有裨益:廟謨宏遠，著於甲令。
+                                <br>
+                                先是，雍正元年(一七二三)臺邑周令 (鍾瑄)創樹木柵，周圍二千一百四十七丈 ，關建七門。乾隆初年(一七三六)，七門始易以石;但事屬草創，未能完備。元樞抵臺後，巡閱城垣，現存木柵歲久牛多朽爛，城基間為民人侵占;歷年既遠，難以根究。所樹刺竹亦多殘拔，存者無幾:殊無以資捍衛。元樞伏念臺郡為海外重地，城垣為衛郡之要事;首宜修建，以護居民。除將舊柵修其殘缺外，又將被侵舊址，逐為清釐;仍恐有礙居民盧墓，因其地勢酌為變通，以期無擾。復念向來只有木柵一層，致被殘拔;是以於舊柵之內，按照城基另建木城，比舊棚加高三尺。又於新舊木柵之中的留空隙丈二餘地，密種刺竹、珊瑚、蒜投。有關扼要處所，各建敵臺一座，安置瞰位於上;雄蝶一如城樓式，共計一十有八座。並於城內添設當舖，如臺之數。分撥兵役，畫夜防守;自西南以至北城，鳴金擊标，週遭相應。郡西面海，西門為自口進都要临。舊以濱海之地無從樹柵，只設南、北瞰臺二座;今於瞰臺左右添設木柵兩翼，另建小西門 (原文誤水西門一座，並增瞰臺三座。又查附北門外之軍工大廠，舊制並無城門;今又添建大廠 門一座，以資鎖鑰:於海疆捍禦之方，層層嚴警，淘稱金湯鞏固、山海救寧矣。
+                                <br>
+                                是役一切經費，元樞首捐廉俸;而郡中紳士樂觀厥成，捐輸恐後。慎選董事經理， 不假胥役之手，以杜侵冒。復同廳、縣籌捐生息，以為每年修理之需;法頗周備，可垂永久。
+                            </p>
+                        </blockquote>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic12.png">
+                                <div class="imgText">
+                                    <span>重建台灣郡城圖說</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            由於乾隆五十一年到五十三年（1787年至1788年）臺灣爆發林爽文事件將烽火蔓延全島。戰事前後歷經一年四個月，清廷調動四省的兵力才平定，是清朝治臺最大規模的抗清事件。臺灣各地的城牆均由木柵或荊竹所築，除府城以外，其他四座縣廳城全部淪陷，曝露出木柵或荊竹不足以防禦的缺點。事件平復之後，福康安、工部仕郎德成、福建巡府徐嗣曾提出將原來用荊竹為插的臺灣府城改建為土城，這項提議被予以接受，終於在乾隆五十三年到五十六年（1788年至1791年）原本的木柵竹城由臺灣知府楊廷理改建為土城。此次改建，最重大的變動就是將大西門往內移動約一百二十餘丈（400m），使五條港區成為城外。這時的府城城垣高一丈八尺（5.76m），頂寬一丈五尺（4.8m），底寬二丈（6.4m），城周兩千五百二十丈（8.064km）。
+                        </p>
+                        <p>
+                            然而到了道光三年（1823年），由於暴風雨導致西邊海岸淤淺，再加上道光十二年〈1832年〉發生的張丙事件，閩浙總督程祖洛奏請加蓋西外城。准奏之後，便依照舉人鄭朝蘭的建議與程祖洛的監督下推動民捐民辦，進一步改建嘉慶十年（1805年）所造的府城三郊的木柵，並開拱乾門、兌悅門與奠坤門，而府城大東門外也擴建了東外城，開仁和、東郭、永康三門。這一次的擴建，令城牆周長增加到兩千七百丈（8.64km）。
+                        </p>
+                        <p>
+                            同治六年（1867年）六月與八月發生的暴風雨，令城廓倒塌極為嚴重，同治十三年（1874年）沈葆楨進行了臺灣城最後一次修築工程，修築時間為七月廿五到十二月十五（1874年9月5日－1875年1月22日）。
+                        </p>
+                        <p>
+                            日本統治臺灣後引入西方都市計畫概念，日方認為城牆有礙都市發展且不再具有防衛意義，故逐步將之廢除。首先在明治三十三年（1900年），臺南停車場（即臺南車站）啟用，縱貫鐵道直接鑿穿大北門城壁，入城設站，再由小南門附近城垣出城。臺灣城大部分的城牆在這段時間遭到拆除，如西側城牆變成南北向道路（現今西門路）。及日治時期結束，絕大部份的城壁皆已拆除。
+                        </p>
+                        <p>
+                            現今剩存的城門部分只剩下大東門、大南門、小西門以及兌悅門四座。城垣遺跡則有南門段殘蹟、小東門段殘蹟、東門段殘蹟。
+                        </p>
+                        <h4>現今遺址</h4>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic13.png">
+                                <div class="imgText">
+                                    <span>大東門(迎春門)</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic14.png">
+                                <div class="imgText">
+                                    <span>大東門地點:台南市東區東門路一段243號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic15.png">
+                                <div class="imgText">
+                                    <span>大南門(寧南門)</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic16.png">
+                                <div class="imgText">
+                                    <span>大南門地點:台南市中西區忠義路一段84巷</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic17.png">
+                                <div class="imgText">
+                                    <span>小西門(靖波門)</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic18.png">
+                                <div class="imgText">
+                                    <span>小西門地點:台南市東區大學路1號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic19.png">
+                                <div class="imgText">
+                                    <span>樂悅門</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic20.png">
+                                <div class="imgText">
+                                    <span>樂悅門地點: 台南市中西區信義街118號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic21.png">
+                                <div class="imgText">
+                                    <span>南門段殘蹟</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic22.png">
+                                <div class="imgText">
+                                    <span>南門段殘蹟地點:台灣台南市中西區樹林街二段186號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic23.png">
+                                <div class="imgText">
+                                    <span>小東門段殘蹟</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic24.png">
+                                <div class="imgText">
+                                    <span>小東門段殘蹟地點:台灣台南市東區大學路1號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic25.png">
+                                <div class="imgText">
+                                    <span>東門段城垣殘</span>
+                                </div>
+                            </div>
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic26.png">
+                                <div class="imgText">
+                                    <span>東門段殘蹟:台灣台南市東區光華街223-225號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div id="Kuan-Ti-Temple">
+                    <div class="dialog-left"><h3>重修關帝廟</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            永曆十八年(西元1664年)，鄭經為寧靖王建造寧靖王府邸，該建築物是由王宅，寢宮以及兩座神明廳所組合而成，分別供俸玄天上帝與關聖帝君。如今的大天后宮的前身就是由王宅所改建而成，而祀典武廟則是由神明廳所改建的。
+                        </p>
+                        <p>
+                            史料上第一次記載之重修為清康熙二十九年（西元1690年），由臺廈道道員王效宗主持。玄天上帝是明朝的守護神，因此被清朝官員供俸到別處，他將兩座神明廳重建與擴建關帝廳，將廟門改為南向，並擴大格局使其擁有正殿、後殿、左右廡廊及初拜殿、三川門、廟前石埕等，即大致抵定今日所見之格局。康熙五十五年（西元1716年）由臺廈道陳濱主持重修，次年改建為規模龐大的廟宇，在那時還保留寧靖王親手書寫的匾額「古今一人」。雍正三年（西元1725年），清廷敕封關公的祖先三代公爵，分別為光昭公，裕昌公，成忠公，並製神位，供奉於後殿三代廳。且奉旨舉辦春秋二祭，使之成為全臺規模最大，也是唯一擁有「祀典」尊崇的武廟，並與「全臺首學」之臺南孔子廟並列，享有「祀典武廟」之稱。乾隆三十年(西元1765年)，台灣府知府蔣允焄將廟左的高公祀改為官廳。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            乾隆四十二年(西元1777年)，台灣府知府蔣元樞大力修建，並贈與一尊「微語觀音」。根據台郡重修關帝廟圖碑，馬神爺被遷建至永福路對面左側供奉以及官廳被拆除，其規模與現今大同小異。
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第39頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查臺郡關帝廟凡數區，其在鎮北坊者為春秋秩祀之所。此廟自前明業已建蓋，迄今 百有餘載;規模雖備，傾圯日甚。廟制:前為頭門三楹，中為大殿，供奉神像;其後， 正屋一進。廟門外側有屋二進為官廳，周圍繞以高垣。元樞既已興建各工，伏念武廟關 於政典甚鉅，修整不可稍緩。因為捐俸，並勸樂施;飾材店工，重加修葺。其規模仍循其舊，而廟貌魏煥則如新構。
+                            </p>
+                            <p>
+                                再，廟後右側有屋數楹，內奉大士;其旁雜疊神祇，殊非昭虔安神之道。茲並加修建，以奉大士;其諸神之像，另屋供奉。旁有屋宇，亦行籍韋，以祀保生聖母神像。廟貌既飭，自當益庇神庥。
+                            </p>
+                        </blockquote>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic27.png">
+                                <div class="imgText">
+                                    <span>重修關帝廟圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic28.png">
+                                <div class="imgText">
+                                    <span>微語觀音</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            日治時期，日本政府擬定拓寬永福路，預計拆除祀典武廟，幸好市長羽鳥又男對古蹟有所重視，以及附近居民群起抗議，讓拓建道路繞道。雖然武廟不再列入官方祀典，也失去其原為官方單位之優勢地位，但仍在人民心中仍維持其信仰上的崇高地位。該廟於民國七十二年（1983年）被列為一級古蹟，開始規劃整修至今。
+                        </p>
+                        <h4>廟宇特色</h4>
+                        <p>
+                            關帝廟的老樹位於廟方西側的院落，是府城冬天賞梅的好去處。在府城提到梅樹，祀典武廟的老梅樹已成經典，只因為此梅樹據說是明寧靖王朱術桂親手所植，少說也有三百多年的歷史。除了樹齡「德高望重」外，因為植梅之人為南明流亡王室，更讓這棵梅樹別具意義。
+                        </p>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic35.png">
+                                <div class="imgText">
+                                    <span>關帝廟古梅</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            關帝廟三川殿上方的「大丈夫」匾額是由乾隆五十九年（西元1791年）臺澎丘道楊廷理所題之「大丈夫」之匾最為著名。其詞出自孟子 ‧ 滕文公篇下：「富貴不能淫，貧賤不能移，威武不能屈，此之謂大丈夫也」。
+                        </p>
+                        <div class="imgRWD"> 
+                                 
+                            <div class="imgWithText">
+                                <img src="image/beautyPic36.png">
+                                <div class="imgText">
+                                    <span>「大丈夫」匾額</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <h4>現今遺址</h4>
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/beautyPic29.png">
+                                <div class="imgText">
+                                    <span>祀典武廟</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/beautyPic30.png">
+                                <div class="imgText">
+                                    <span>祀典武廟地點:台南市中西區永福路二段229號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>   
+        </div>
+        
+        <!-- Back to top -->
+        <div class="fixed-action-btn">
+          <a id="back-to-top" class="deep-orange darken-3
+ btn-floating btn-large scale-transition" style="opacity: 0.8;">
+            <i class="large material-icons">keyboard_arrow_up</i>
+          </a>
+        </div>
+    
+    
+        </main>
+        
+        <!--Footer:Begin-->
+        <footer class="page-footer">
+            <div class="container center">
+                <h6>Copyright&nbsp;©&nbsp;2018&nbsp;南臺科技大學電子系網通組&nbsp;「南臺雙煞」團隊&nbsp;&nbsp;All rights reserved.</h6>
+            </div>
+            <br>
+        </footer>
+        <!--Footer:End-->
+        
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.collapsible').collapsible();
+                $(".dropdown-trigger").dropdown({
+                    inDuration: 300,
+                    outDuration: 225,
+                    constrain_width: true, 
+                    hover: false, 
+                    gutter: 0,
+                    coverTrigger:false, //Let the dropdown below the nav
+                    alignment: 'right'
+                });
+                
+                if ($('#back-to-top').length) {
+                  var scrollTrigger = 100, // px
+                    backToTop = function() {
+                      var scrollTop = $(window).scrollTop();
+                      if (scrollTop > scrollTrigger) {
+                        $('#back-to-top').removeClass('scale-out');
+                      } else {
+                        $('#back-to-top').addClass('scale-out');
+                      }
+                    };
+                    
+                  backToTop();
+                    
+                  $(window).on('scroll', function() {
+                    backToTop();
+                  });
+
+                  $('#back-to-top').on('click', function(e) {
+                    e.preventDefault();
+                    $('html,body').animate({
+                      scrollTop: 0
+                    }, 700);
+                  });
+                    
+                }
+                
+                removeHash();
+                
+                $('a[href^="#"]').on('click', function(e) { 
+                    
+                    setTimeout("removeHash()",0) ;
+                    
+                    var target = this.hash;
+                        
+                    $target = $(target);
+                    
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top+2
+                    }, 500, 'swing', function () {
+                        $(document).on("scroll");
+                    });
+                    
+                    setTimeout("removeHash()",0) ;
+
+                    
+                });
+                
+            });
+            
+            function removeHash() { 
+                    var scrollV, scrollH, loc = window.location;
+                    if ("pushState" in history)
+                        history.pushState("", document.title, loc.pathname + loc.search);
+                    else {
+                        // Prevent scrolling by storing the page's current scroll offset
+                        scrollV = document.body.scrollTop;
+                        scrollH = document.body.scrollLeft;
+
+                        loc.hash = "";
+
+                        // Restore the scroll offset, should be flicker free
+                        document.body.scrollTop = scrollV;
+                        document.body.scrollLeft = scrollH;
+                    }
+                }
+            
+        </script>
+        
+         
+           
+    </body>
+</html>
+

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>蔣元樞與府城之美</title>
+        <meta name="description" content="蔣元樞與府城之美">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/materialize.css">       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script/jquery-3.3.1.js"></script>
+        <script src="script/materialize.js"></script>        
+    </head>
+    
+    <body>
+        <!--Header:Begin-->
+        <header>
+        <!-- Dropdown Structure  *Note:Each of Attributes' id has to be unique! -->
+        <ul id="dropdownFaith" class="dropdown-content">
+          <li><a class="white-text center-align" href="#Cheng-Huan-Temple">府城隍廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Long-Wang-Temple">龍王廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Fong-Shen-Temple">風神廟</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="#Hai-Hui-Temple">海會寺</a></li>
+        </ul>
+        <ul id="dropdownBeauty" class="dropdown-content">
+          <li><a class="white-text center-align" href="beauty.html#Grand-Matsu-Temple">臺郡天后宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="beauty.html#Wanshou-Palace">萬壽宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="beauty.html#Kaiji-Tianhou-Palace">開基天后宮</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="beauty.html#County-Town">台灣郡城</a></li>
+          <li class="divider"></li>
+          <li><a class="white-text center-align" href="beauty.html#Kuan-Ti-Temple">關帝廟</a></li>
+        </ul>
+        <!--sideNav-->
+        <ul class="sidenav sidenav-color sidenavText" id="mobile-demo">
+            <li style="padding: 50px 0;"><a href="#" style="font-size: 3vh;" class="center-align">蔣元樞與府城之美</a></li>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="story.html">人物生平</a></li>
+            <li><a href="military.html">軍事建設</a></li>
+            <li><a href="education.html">教育貢獻</a></li>
+
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <div class="collapsible-header active">
+                         <a href="faith.html">信仰寄託</a>
+                         <a href="javascript:void(0);" data-target="collapsibleFaith"><i class="material-icons right">arrow_drop_down</i></a>
+                    </div>
+                    <div id="collapsibleFaith" class="collapsible-body">
+                         <ul>
+                             <li><a href="#Cheng-Huan-Temple">府城隍廟</a></li>
+                             <li><a href="#Long-Wang-Temple">龍王廟</a></li>
+                             <li><a href="#Fong-Shen-Temple">風神廟</a></li>
+                             <li><a href="#Hai-Hui-Temple">海會寺</a></li>
+                         </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <div class="collapsible-header">
+                         <a href="beauty.html">府城之美</a>
+                         <a href="javascript:void(0);" data-target="collapsibleBeauty"><i class="material-icons right">arrow_drop_down</i></a>
+                    </div>
+                    <div id="collapsibleBeauty" class="collapsible-body">
+                         <ul>
+                             <li><a href="beauty.html#Grand-Matsu-Temple">臺郡天后宮</a></li>
+                             <li><a href="beauty.html#Wanshou-Palace">萬壽宮</a></li>
+                             <li><a href="beauty.html#Kaiji-Tianhou-Palace">開基天后宮</a></li>
+                             <li><a href="beauty.html#County-Town">台灣郡城</a></li>
+                             <li><a href="beauty.html#Kuan-Ti-Temple">關帝廟</a></li>
+                         </ul>
+                    </div>
+                </li>
+            </ul>
+            <li><a href="about.html">製作團隊</a></li>
+        </ul>
+        </header>
+        <!--Header:End-->
+        
+        <main>
+        <!--Index-banner-->
+        <div id="index-banner" class="parallax-container">
+           <!--NavBar-->
+            <nav class="navcolor">
+                <div class="nav-wrapper container">
+                    <a href="javascript:void(0);" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li class="waves-effect waves-light"><a href="index.html">首頁</a></li>
+                            <li class="waves-effect waves-light"><a href="story.html">人物生平</a></li>
+                            <li class="waves-effect waves-light"><a href="military.html">軍事建設</a></li>
+                            <li class="waves-effect waves-light"><a href="education.html">教育貢獻</a></li>
+                            
+                            <li><a class="active waves-effect waves-light" href="faith.html">信仰寄託</a></li>
+                            <li><a class="waves-effect waves-light dropdown-trigger" data-target="dropdownFaith"><i class="material-icons">arrow_drop_down</i></a></li>
+                            
+                            <li><a class="waves-effect waves-light" href="beauty.html" style="margin-bottom: 5px ;">府城之美</a></li>
+                            <li><a class="waves-effect waves-light dropdown-trigger" data-target="dropdownBeauty"><i class="material-icons">arrow_drop_down</i></a></li>
+                            
+                            <li class="waves-effect waves-light"><a href="about.html">製作團隊</a></li>
+                        </ul>
+                </div>
+            </nav>
+            <div class="section no-pad-bot">
+              <div class="container">
+                <br>
+                <h1 class="header center white-text text-lighten-2">蔣元樞與府城之美</h1>
+                <div class="row center">
+                  <h5 class="header col s12 light white-text">The beauty of Fucheng.</h5>
+                </div>
+                <br>
+              </div>
+            </div>
+            <div class="parallax"><img src="image/indexPic1temp.png"></div>
+        </div>
+        <!--Separation line-->
+        <hr class="style-one"> 
+        <!--Content-->
+        <div class="container center">
+            <!--Title-->
+            <div class="title">
+                <h3>信仰寄託</h3>
+            </div>
+            <!--Text-->
+            <div class="text left-align">
+                <div id="Cheng-Huan-Temple">
+                    <div class="dialog-left"><h3>重修臺灣府城隍廟</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            傳說城與隍是古代神話中用來守護城池的神明。周朝時規定，天子要祭祀八種神，其中第七種叫水庸，水就是隍，而庸就是城，這便是必隍是祭祀的起源。隨舊都市的發展，大部分的城，都建在水邊，城與水漸漸結為一體，而水神與庸神也合而為一，成為守護城池的城隍神。所以遠在西元239年，三國中的吳國，便有建城隍廟的記錄。明太祖朱元璋即位，對於城隍信奉虔誠，封京師城隍為帝，開封、臨濠、東和、平滁等地為王，在府稱公，在縣稱侯洪武三年(西元1370年)雖然去除封號，但已有府、川、縣城隍的稱呼。清朝以後，不僅各都、府、川、縣的官著附近都設百城隍廟，而且地方自新上任，要先到城隍廟舉行奉告典禮，然後才能赴任。而民間則認為城隍爺是護國祐民之神，也是賞罰分明的司法神，能「司陰陽，察善惡，辨是非，定功過」。
+                            <br>
+                            在永曆二十三年(西元1669年)，鄭經在東安坊承天府署右側建立了台灣第一座城隍廟，在那時叫做承天府城隍廟，祭祀著威靈公。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            乾隆四十二年(西元1777年)，蔣元樞進行擴建，讓建築的規模更加完善。
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第53頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查臺郡城隍廟，在府署之西數武。廟制:前為頭門三楹，前為戲臺 。門內有廊，如川堂式。中為正殿，供奉神像。其後正屋三進，雜祀諸神。廟之左右，各啟小門。自頭門而至正殿，兩旁基址皆建廂屋五楹，復隔以墙，為僧人住居之所。右廊之北，於墻另開口門;內建小屋三楹。周圍繞以高垣，廟制頗稱宏触。神之感應最靈，祈報殆無日。建廟之後，歲久缺修，將就傾圮。
+                                伏念神列於祀典，福庇海邦;亟宜修整，以安神靈。因為捐俸，並喜紳士樂輪;乃飭材庀工，易其棟宇、塗其丹隻、厚其垣墉。基址雖仍其舊，而廟貌彌加崇煥矣。
+                                再，臺灣設郡後，其初守郡蔣公諱統英有功斯土，郡人至今不忘;向於廟之右側建祠奉祀，迄今年久傾圮。茲仍照舊址修建，以永昭前賢之愁績於不朽耳。
+                            </p>
+                        </blockquote>
+                            
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic1.png">
+                                <div class="imgText">
+                                    <span>重修台灣府城圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic2.png">
+                                <div class="imgText">
+                                    <span>重修台灣府城圖碑</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                        <p>
+                            今天所見的臺灣府城隍廟，坐北朝南，是歷經多次修建的紀果。廟前原有寬廣的廟埕，但日治時期實施市區改正，劃為道路用地。民國七十一年(西元1982年)，青年路拓寬成十五公尺的道路，使得前殿緊臨道路，成為臨衝的廟宇。目前的平面配置為二開間的三殿兩廂房形式。前殿與正殿間有拜亭連接，除亭的兩側狹窄的天井可以採光外，兩殿幾乎已成為一體。從中央大門入口檯頭仰望，高懸的匾額上題有碩大的「爾來了」三個字，象徵著城隍爺無上的權威，也是臺灣府城三大名匾之一。進了大門回首仰望，又見超大型的算盤高高地掛在門楣上方，用來算是非，昭天理，觀人棄惡為善的。
+                        </p>
+                        
+                        <h4>廟宇特色</h4>
+                           
+                           <p>
+                               在城隍廟的主殿，有一方「爾來了」匾額，由黑底金字構成，高掛盈門，傳達出強烈的警世效果，讓人感受到城隍廟的威武的氣氛，在匾額的對面有一個號稱全台最大的大算盤，城隍爺專用的大算盤，算著人們在世間上的種種善惡。
+                           </p>
+                           
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic15.png">
+                                <div class="imgText">
+                                    <span>「爾來了」匾額</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic16.png">
+                                <div class="imgText">
+                                    <span>大算盤</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                        <h4>現今遺址</h4>
+                            
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic3.png">
+                                <div class="imgText">
+                                    <span>台灣府城隍廟</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic4.png">
+                                <div class="imgText">
+                                    <span>台灣府城隍廟地點:台南市中西區青年路133號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div id="Long-Wang-Temple">
+                    <div class="dialog-left"><h3>重修龍王廟</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            該廟創建於清康熙五十五年（1716年），由臺廈道梁文科捐俸助建，根據《臺灣縣志》所收之〈新建龍王廟碑記〉，該廟是由東安坊二王廟舊址改建而成的，動工自康熙五十五年（1716年）九月，落成於該年十一月。之後該廟曾在乾隆四年（1739年）由臺灣府知府劉良壁重修。
+                        </p>
+                        <p>
+                            下文摘錄自台灣縣志:
+                        </p>
+                        <blockquote>
+                           <p>
+                            新建龍王廟碑記梁文科
+                            <br>
+                            龍王為四瀆之神，所以奠安海國，非第為祈禱甘霖之徵也。建廟崇祀，何地不然？余觀察閩中，乙未移調台灣。下車之後，見夫陰陽和而時雨降，民歌樂土、室慶盈寧，熙熙皞皞之風，無非聖天子德教之所被。越明年，雨澤偶愆，祈沛於城隍之廟、乞靈於上帝之宮。問所謂龍王者，蓋缺焉而莫可稽。是豈龍王之神，能庇於寰區之內而獨不能庇於東海之疆乎？又豈台地之人，能盡誠敬於他神而獨不能隆享祀龍王乎？蓋莫為之傳，雖靈弗彰；莫為之倡，雖顯亦廢。
+                            <br>
+                            因就東安坊二王廟之舊址，廓而闢之。中為大殿，深三丈八尺、廣三丈二尺，塑龍王像以居中，畫風伯雨師於兩旁。殿之外為亭，深一丈八尺；亭之前為頭門，深二丈三尺五寸，廣各與殿均。後有僧舍、西有廚房，延僧居之以奉祀焉。廟建於丙申秋九月，成於丙申冬十一月。
+                            <br>
+                            從茲以往，海波不揚，長戴聖世之厚澤；雨陽咸若，群沐神庥於罔替。台之人所以食其德而報其功者，又豈一方一隅之所能限哉？因援筆而為之記。
+                           </p>
+                        </blockquote>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            乾隆四十三年（1778年）由臺灣府知府蔣元樞重修。<br>
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第六十七頁:
+                        </p>
+                        <blockquote> 
+                            <p>      
+                                查龍王廟在郡治之寧南坊，康熙五十五年(一七一六)臺廈道梁諱文科所建。廟制 :前為頭門三楹，中為正殿。殿後隔以高垣;建廊，制如川堂。其後正屋一進，中祀龍 神。廟之西偏，另建頭門一座;門內兩旁，皆有廊屋。其中為正廳，凡百官春秋祭祀以 及謁望認廟，皆集於此。其後正屋一進，中奉大士，旁為僧房。其崇高廣狹，一如前屋 :廟制頗宏做可觀。歲久缺修，日就倾圯。元樞首捐廉俸，並勸紳士捐輸;重加葺治: 易其橡柄，飾其剝蝕。規制煥然，一如新構。<br>龍神同掌雨水，澤庇生民。廟制既崇，享祀益肅;將見靈爽昭垂，海邦永慶神床矣。
+                            </p> 
+                        </blockquote>
+                            
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic5.png">
+                                <div class="imgText">
+                                    <span>重修海會寺圖說</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                        <p>
+                            西元1895年，清朝與日本簽訂馬關條約將臺灣割讓。日治時期，該廟遭官方徵用並拆除，且在原址興建臺南警察署，龍王廟裡的四海龍王神像被移置大天后宮供奉。
+                        </p>
+                </div>
+                <div id="Fong-Shen-Temple">
+                    <div class="dialog-left"><h3>重修風神廟</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            乾隆四年（西元1739）巡道卾善建立風神廟於臺灣府大西門外面南河港的河道右側、安瀾橋的旁邊。當時的風神廟是一棟四進的建築，其第一進是大門，第二進是官廳，第三進便是風神殿，而第四進是大士殿。並且將赤崁街大井頭的接官亭移到此處後興建，以保佑往來舟楫的行旅安全。以利來去官吏渡海風順平安。自建接官亭後，官員到任、離職、回鄉之迎送都在此。而在這之後臺灣府知府蔣允焄於清乾隆三十年（1765年）對風神廟進行了第一次的整修。
+                        </p>
+                            
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            清乾隆四十二年（西元1777年）時的知府蔣元樞則又再次進行整修。這一次除了對原有建築整修之外，蔣元樞還在廟的東側建置公館以讓來臺的官員暫居，並建設石坊以光大這座進出臺灣的門扉。
+                        </p>
+                        <p>
+                            下文摘錄自重修台郡各建築說第三十七頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查臺郡風神廟，在西門外。凡自鹿耳門抵郡登陸及駕小艇赴鹿口配船往厦，皆必取道於此:蓋往來臺、厦之要津也。舊制:前為頭門，內建正屋三楹為官廳。 廳後之屋，功俸神像。後屋數楹，中奉大士。舊時廟制如是。凡往來文武官僚迎送静接，皆集於此。地既幅仄，年久將顏;於是興工飾材修其屋宇，以還舊觀。 
+                                元樞於鹿耳門創建公館，來往住宿者既已得其所矣。伏念臺郡建城以後，管鑰嚴謹;其自鹿耳來郡，倘值昏暮或遇風雨不能進城，勢必傍徨終夜，露處堪虞:則此地公館之不可少，正與鹿口無異。茲就廟側之左購買民居，鼎建公館一所。其深、廣，與廟相等。前為頭門，中留隙地， 續以短垣;穴門其中，內建正廳三楹。廳後正屋一進，計五 間;旁(原文作傍) 置兩廂，厨咸備。不但往來此地者可以安居，而迎送祖餞亦有其地;不必如舊時耐神前，於昭虔安神之道殊有得焉。
+                                再，向來未建馬頭，登舟上岸，甚苦不便。此地為進郡要路，宜宏規制，以壯觀瞻。乃自泉郡購造石坊，運載來臺，建於馬頭之上。坊前砌以石階，以便登涉。現[在] 規模宏壯，氣象改觀。
+                            </p>
+                        </blockquote>
+                            
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic6.png">
+                                <div class="imgText">
+                                    <span>重修風神廟並建官廳、馬頭、石坊圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic7.png">
+                                <div class="imgText">
+                                    <span>重修風神廟並建官廳、馬頭、石坊圖碑</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                        <p>
+                            民國七年（西元1718年）日人實施市區改正。開闢今之民權路，將官廳後面的殿、屋、公館全部拆除。廟堂神像則移到官廳供奉，從此接官亭完整之規模，不復存在。民國十三年（西元1924年）信士謝合、謝群我、郭祥、郭佑等人，募資重建風神廟於現址，並將神像迎回祭祀。民國四十六年（西元1957年）信士謝江泉出資修建，並增塑神像。民國七十六年謝江泉等再募款重修，並舉行建醮大典。民國八十一年政府重視文化資產之保存維護，特予編列預算，整修現貌之風神廟接官亭和鐘鼓樓。本廟為維護三級古蹟完整，亦極力負起重責，並祈求風神爺保佑四季風調雨順，百姓平安健康，事業發展。西元2016年2月6日的高雄美濃地震，造成日治時期建的石造鐘樓倒塌，鼓樓結構也有受損，為該次地震中臺南古蹟受創最嚴重者。
+                        </p>
+                           
+                        <h4>廟宇特色</h4>
+                            
+                        <p>
+                            風神廟主要祭祀風神，信徒信眾們都稱呼為風神爺，而廟內的雷公與雷母的神像做工精細，頗具神韻，神像皆是由乾隆年間的巡道顎善所雕製的。
+                        </p>
+                        
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic17.png">
+                                <div class="imgText">
+                                    <span>風神廟雷公</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic18.png">
+                                <div class="imgText">
+                                    <span>風神廟雷母</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <h4>現今遺址</h4>
+                            
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic8.png">
+                                <div class="imgText">
+                                    <span>風神廟</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic9.png">
+                                <div class="imgText">
+                                    <span>接官亭石坊</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                        <div class="imgRWD">
+                            <div class="imgWithText">
+                                <img src="image/faithPic10.png">
+                                <div class="imgText">
+                                    <span>風神廟&#38;接官亭石坊地點: 台南市中西區民權路三段143巷8號</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div id="Hai-Hui-Temple">
+                    <div class="dialog-left"><h3>重修海會寺/開元寺</h3></div>
+                        <h4>歷史簡介</h4>
+                        <p>
+                            明永曆三十四年（1680年）鄭經為奉養其母董氏而建立了北園別館，而在董氏去世後該園日漸荒廢，此外鄭經長子、監國鄭克𡒉亦是在此被殺。而進入清朝之後，福建分巡臺灣廈門道周昌也曾於康熙二十五年（1686年）在此地建亭築室，但不久就任滿回京，該園日久欠修又荒廢了。
+                        </p>
+                        <p>
+                            康熙二十九年（1690年），臺灣鎮總兵王化行與臺灣巡臺兵備道王效宗認為臺灣缺少佛寺，遂在北園別館原址興建寺廟，因為是位於柴頭港溪入海之處，所以命名為「海會寺」，而因為該寺為臺灣第一座官建佛寺，便循唐玄宗所開之例，又稱「開元寺」。到了乾隆十五年（1750年），巡道書成重修該寺，由於該寺多石榴又是禪宗流派臨濟宗在臺灣的本山，便改寺名為「榴禪寺」，但不久又恢復舊名海會寺。
+                        </p>
+                        <h4>蔣元樞的奉獻</h4>
+                        <p>
+                            乾隆四十二年（1777年），臺灣知府蔣元樞整修該寺，並奠基該寺的格局，並留下碑記。
+                        </p>
+                        <p>
+                                下文摘錄自重修台郡各建築說第七、八頁:
+                        </p>
+                        <blockquote>
+                            <p>
+                                查海會寺在郡城之北門外五里許，係「為鄭」北園舊址。鄭氏既滅，臺館荒蕪。 康熙二十九年(一六九。)，臺夏道王諱效宗惜總鎮王公(化行)改為佛寺，名曰「海會」;並置寺產，以為常住之業。寺以年久缺修，田為僧人盜賣;樣顏梅朽，滿目荒涼。
+                                上年欽奉恩詔修葺廟宇，念茲海外絕無勝地可供遊涉，此寺載在「郡志」，有關名 勝，若任其摧殘、不行及時葺治，勢必日就比壞;後來即欲修理，無從措手。於是鳩工飭材，大加修整。其前正屋三楹為山門，門內供奉彌勒佛像;兩旁塑護法尊者二像，高 二丈許。其後金剛四尊，高亦如之。又內為甬道，左右建鐘、鼓樓各一座。樓之旁，各 建廂房三楹。中為大殿，供奉如來、文殊、普賢佛像，獅、象、蓮座，皆高丈餘。殿內 左右塑羅漢像，皆以金飾。殿後，供奉韋陀。中為川堂;再進，正屋三楹，內奉大士， 續以高垣。舊時寺基止此，其餘左右所建屋宇皆係新構。其右邊正屋一進，為官廳。前 留隙地，隔以短垣;旁開小門，繞以長廊。由官廳而前，穴垣為門;門外左側，有星數 楹。大士殿後隙地數十弓、又園二十餘畝，種植雜糧、蔬菜，可供寺僧齋糧。周遭，图 以刺竹。折而之東，口箭亭。亭之左，有屋五楹，迴曲如廊，深二丈;可置几途，以為姚少點老得 明峰身之所，凡此，皆新建之屋也。迄工之後，士女時有遊涉者;觀莊嚴之慧相，可 身州問之風，化身猛驚、拯其苦惱:則此寺之修，其初為恭承聖詔以存名勝，而於世 道人心水木始無關也。
+                                寺僧所賣舊產，為時已久，牛難清查。今為贖其可稽者，並為另置田畝，勒之貞珉。何處可得和銀六百餘圓，住持之僧，無慮饑寒。後來經理果能不廢，可期垂諸永久。
+                            </p>
+                        </blockquote>
+                        
+                        <div class="imgRWD">
+                            
+                            <div class="imgWithText">
+                                <img src="image/faithPic11.png">
+                                <div class="imgText">
+                                    <span>重修海會寺圖說</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic12.png">
+                                <div class="imgText">
+                                    <span>重修海會寺圖碑</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            乾隆末年，該寺正式名稱改為開元寺，海會寺之名則成通稱。而嘉慶元年（1796年）時，為了慶祝皇帝登基，臺灣總兵哈當阿遂取「聖天予綏靖海疆至意」將寺名改為「海靖寺」，並予以重修、題獻三匾。到了清咸豐九年（1859年）時，寺名確定為「開元寺」，同治之後，約每隔20到30年小修一次，再隔60年大修一次。
+                            <br>
+                            在臺灣日治時期，該寺差點被寺中僧人寶山賣給日本人，但該僧在寺產賣出前猝死，該寺最終保存了下來。此外該寺由於第六任住持玄精上人的發願重修，寺廟漸恢復舊觀，宗教風氣亦盛。
+                            <br>
+                            二次大戰結束進入民國時期後，臺灣推行耕者有其田的政策，開元寺曾一度因土地生產不足以繳稅而陷入危機，後來經眼淨禪師與臺南士紳名流合力處理，才化險為夷。爾後開元寺附近增建了佛學書院、禪學院、圖書館、幼稚園、慈愛醫院與安養中心等設施，與附近居民的生活有密切的互動。民國五十二年（1963年）翻修大士殿，改成兩層樓的水泥建築。在民國八十九年（2000年）完成前殿與正殿的整修，但有一些舊貌因而被修掉。
+                        </p>
+                        
+                        <h4>寺廟特色</h4>
+                        
+                        <p>
+                            開元寺內部的大雄寶殿懸掛著台灣第一古鐘，是由第一代住持志中禪師在康熙三十九年向信眾化緣募資而打造，鐘面上刻有般若波羅蜜多心經以及志忠禪師出關偈，一共1283個字。
+                        </p>
+                        
+                        <div class="imgRWD">
+                           
+                            <div class="imgWithText">
+                                <img src="image/faithPic19.png">
+                                <div class="imgText">
+                                    <span>開元寺古鐘</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <p>
+                            在開元寺左側庭院古樹蔭下，有一個名為「詩魂」的石碑，該碑立於昭和五年(西元1930年)，由於日本政府對台灣進行皇民化運動，詩人怕因詩文而招來日本政府的文字獄，因此將詩文通通埋入地下，再立下此碑來哀悼。
+                        </p>
+                         
+                        <div class="imgRWD"> 
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic20.png">
+                                <div class="imgText">
+                                    <span>詩魂碑</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <h4>現今遺址</h4>
+                        
+                        <div class="imgRWD">
+                           
+                            <div class="imgWithText">
+                                <img src="image/faithPic13.png">
+                                <div class="imgText">
+                                    <span>開元寺</span>
+                                </div>
+                            </div>
+                                
+                            <div class="imgWithText">
+                                <img src="image/faithPic14.png">
+                                <div class="imgText">
+                                    <span>開元寺地點:台南市北區北園街89號</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to top -->
+        <div class="fixed-action-btn">
+          <a id="back-to-top" class="deep-orange darken-3
+ btn-floating btn-large scale-transition" style="opacity: 0.8;">
+            <i class="large material-icons">keyboard_arrow_up</i>
+          </a>
+        </div>
+    
+    
+        </main>
+        
+        <!--Footer:Begin-->
+        <footer class="page-footer">
+            <div class="container center">
+                <h6>Copyright&nbsp;©&nbsp;2018&nbsp;南臺科技大學電子系網通組&nbsp;「南臺雙煞」團隊&nbsp;&nbsp;All rights reserved.</h6>
+            </div>
+            <br>
+        </footer>
+        <!--Footer:End-->
+        
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.collapsible').collapsible();
+                
+                $(".dropdown-trigger").dropdown({
+                    inDuration: 300,
+                    outDuration: 225,
+                    constrain_width: true, 
+                    hover: false, 
+                    gutter: 0,
+                    coverTrigger:false, //Let the dropdown below the nav
+                    alignment: 'right'
+                });
+                
+                if ($('#back-to-top').length) {
+                  var scrollTrigger = 100, // px
+                    backToTop = function() {
+                      var scrollTop = $(window).scrollTop();
+                      if (scrollTop > scrollTrigger) {
+                        $('#back-to-top').removeClass('scale-out');
+                      } else {
+                        $('#back-to-top').addClass('scale-out');
+                      }
+                    };
+                    
+                  backToTop();
+                    
+                  $(window).on('scroll', function() {
+                    backToTop();
+                  });
+
+                  $('#back-to-top').on('click', function(e) {
+                    e.preventDefault();
+                    $('html,body').animate({
+                      scrollTop: 0
+                    }, 700);
+                  });
+                    
+                }
+                
+                removeHash();
+                
+                $('a[href^="#"]').on('click', function(e) { 
+                    
+                    setTimeout("removeHash()",0) ;
+                    
+                    var target = this.hash;
+                        
+                    $target = $(target);
+                    
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top+2
+                    }, 500, 'swing', function () {
+                        $(document).on("scroll");
+                    });
+                    
+                    setTimeout("removeHash()",0) ;
+
+                    
+                });
+                
+                
+                
+            });
+            
+            function removeHash() { 
+                    var scrollV, scrollH, loc = window.location;
+                    if ("pushState" in history)
+                        history.pushState("", document.title, loc.pathname + loc.search);
+                    else {
+                        // Prevent scrolling by storing the page's current scroll offset
+                        scrollV = document.body.scrollTop;
+                        scrollH = document.body.scrollLeft;
+
+                        loc.hash = "";
+
+                        // Restore the scroll offset, should be flicker free
+                        document.body.scrollTop = scrollV;
+                        document.body.scrollLeft = scrollH;
+                    }
+            }
+
+            
+        </script>
+        
+         
+           
+    </body>
+</html>
+

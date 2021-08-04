@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css) ;
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons) ;
+
+@font-face {
+  font-family: KouzanGyousho ;
+  src: local("../font/KouzanGyousho.ttf") format("opentype") ;
+}
+
+html {
+    height: 100% ;
+}
+
+body {
+    font-family: 'Noto Sans TC' ;
+    margin: 0 ;
+    padding: 0 ;
+    /*
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    */
+    
+background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+/* */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+}
+
+main {
+	flex: 1 0 auto ;
+}
+
+.preloader-background {
+	display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    background: #f2f2f2 ;
+    position: fixed ;
+    z-index: 100 ;
+    top: 0 ;
+    left: 0 ;
+    min-width: 100vw ;
+    min-height: 100vh ;
+}
+
+nav.navcolor {
+    background: rgba(189,94,74,0.2) ;
+}
+
+ul.sidenav-color {
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+
+ul.sidenav>li {
+    
+}
+
+ul.sidenav>li>a {
+    font-size: 2.5vh ;
+    color: black ;
+}
+
+div.collapsible-header>a {
+    font-size: 2.5vh ;
+    color: black ;
+    font-weight: 600 ;
+    margin-left: 15px ;
+}
+
+div.collapsible-body {
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");  
+}
+
+div.collapsible-body>ul>li {
+    
+}
+
+div.collapsible-body>ul>li>a {
+    font-size: 2vh ;
+}
+
+div.parallax-container {
+    height: 400px;
+    box-shadow: 5px 0 solid rgba(0,0,0,0.5) ;
+}
+
+
+
+
+hr.style-one {
+    border: 0 ;
+    height: 10px ;
+    background: #bd5e4a ;
+    background-image: linear-gradient(to right, #ccc, #bd5e4a, #ccc) ;
+    margin-top: 0 ;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+h1.header {
+    font-size: 6vh ;
+    font-weight: 500 ;
+}
+/*
+h3.indexText {
+    -webkit-writing-mode: vertical-lr ;
+    writing-mode: vertical-lr ;
+    font-size: 4vh ;
+}
+*/
+p.indexText {
+    font-size: 3vh ;
+}
+
+a.buttonIndex {
+    border: 2px solid #bd5e4a ;
+    font-size: 3vh ;
+    color: black ;
+    padding: 10px ;
+    cursor: pointer ;
+    margin: 3vh ;
+}
+
+a.buttonIndex:hover {
+    background: #464655 ;
+    transition: all 0.6s ;
+    color: white ;
+}
+
+a.brand-logo {
+    font-weight: 600 ;
+}
+
+ul.dropdown-content {
+    background-color: rgba(70,70,85,0.2);
+    margin: 0;
+    /*  min-width: 100px; Changed this to accomodate content width */
+    min-width: 135px;
+    overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+    z-index: 1;
+}
+
+a.dropdown-trigger {
+    margin-left: -10px ;
+    margin-bottom: 5px ;
+}
+
+.nav-wrapper li.active {
+    border-bottom: 5px solid rgba(189,94,74,1);
+}
+
+.nav-wrapper a.active {
+    border-bottom: 5px solid rgba(189,94,74,1);
+}
+
+.nav-wrapper li a:hover {
+    background: rgba(189,94,74,1) ;
+}
+
+footer.page-footer {
+    background: #bd5e4a ;
+    margin-top: 20vh ;
+}
+
+.overlay,
+.parallax-text {
+    letter-spacing: .11em;
+    font-size: 2.25em;
+    text-rendering: optimizeLegibility;
+}
+
+.flex {
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+}
+
+.title {
+    display: inline-block ;
+    padding: 0 ;
+    margin: 3vh auto ;
+}
+
+.title h3 {
+    border-bottom: rgba(189,94,74,1) solid 5px ;
+    padding: 10px 50px ;
+    font-weight: 500 ;
+}
+
+.text {
+    font-size: 2.5vh ;
+    margin: 0 auto ;
+}
+
+.text p {
+    font-weight: 400 ;
+    line-height: 6vh ;
+}
+
+.text p span {
+    border-bottom: 2px solid rgba(189,94,74,1) ;
+}
+
+.text blockquote {
+    background: rgba(189,94,74,0.2) ;
+    border-left: 5px solid rgba(189,94,74,1) ;
+}
+
+.text h3 {
+    font-weight: 450 ;
+    font-size: 4.5vh ;
+    background: rgba(189,94,74,1) ;
+    padding: 10px ;
+    color: #f2f2f2 ;
+}
+
+.dialog-left {
+    margin-bottom: 40px;
+    position: relative;
+    display: block ;
+}
+
+.dialog-left::after {
+    border-color: rgba(189,94,74,1) rgba(189,94,74,1) transparent transparent;
+    border-style: solid solid solid solid;
+ 
+    /* 設定邊框大小可拼湊出任意形狀的三角形 */    border-width: 15px 10px 15px 10px;
+ 
+    bottom: -30px;
+ 
+    /* 必須指定，才能顯示內容 */    content: "";
+ 
+    height: 0px;
+    left: 0px;
+ 
+    /* 必須指定，否則會變梯形 */    position: absolute;
+ 
+    width: 0px;
+}
+
+.text h4 {
+    border-left: 5px solid rgba(189,94,74,1) ;
+    padding-left: 10px ;
+    margin: 0 auto ;
+    font-size: 4vh ;
+}
+
+
+.imgRWD img {
+    border: 0.25em solid rgba(189,94,74,.95) ;
+    margin: 1.5em auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+.imgText {
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+}
+
+.imgText span {
+    border-bottom: 2px solid rgba(189,94,74,1) ; 
+    margin: 0 auto ;
+}
+
+.imgRWD {
+    display: flex;
+    justify-content: space-between; /* content:imgWithText */
+    align-items: flex-end ; /* 在同一水平線上 */
+    flex-wrap: wrap ;
+    flex-direction: row ;
+}
+
+.imgWithText {
+    margin: 0 auto ; /* 置中 */
+}
+
+.imgRWD_FAV {
+    display: flex;
+    justify-content: space-between; /* content:imgWithText */
+    align-items: flex-end ; /* 在同一水平線上 */
+    flex-wrap: wrap ;
+    flex-direction: row ;
+}
+
+.imgRWD_FAV img {
+    border: 0.25em solid rgba(189,94,74,.95) ;
+    margin: 1.5em auto ;
+    max-width: 20% ;
+    height: auto ;
+}
+
+div.source>ul>li>i.material-icons {
+    padding-top: 10px ;
+}
+
+
+#Long-Wang-Temple,
+#Fong-Shen-Temple,
+#Hai-Hui-Temple {
+    padding-top: 30px ;
+}
+
+.dummy {
+  margin-top: 100%;
+}
+.block{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background: #222;
+    
+    height: auto ;
+}
+
+.bg1{
+   background: url(../image/eduPic3.png) center center;
+   background-size: cover;
+}
+
+/* Only Mobile */
+@media only screen and (max-width: 769px) {
+    /*
+    a#back-to-top {
+        display: none!important;
+    }
+    */
+    div.parallax-container {
+        height: 300px ;
+    }
+    
+}
+
+
